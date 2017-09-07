@@ -12,7 +12,7 @@ export default {
   name: 'greeting',
   data() {
     return {
-      name: 'World',
+      name: 'Bubu',
     };
   },
   computed: {
