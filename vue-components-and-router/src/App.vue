@@ -8,6 +8,7 @@
       <!-- <router-link> wird standardmäßig als <a> gerendert-->
       <router-link to="/">Hello</router-link>
       <router-link to="/counter">Counter</router-link>
+      <router-link to="/greet">Greet</router-link>
     </p>
 
     <transition name="slide-fade" mode="out-in"/>
