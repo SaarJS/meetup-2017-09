@@ -4,7 +4,7 @@
     <button v-on:click="dec">
       --
     </button>
-    <button v-on:click="inc">
+    <button @click="inc">
       ++
     </button>
   </div>

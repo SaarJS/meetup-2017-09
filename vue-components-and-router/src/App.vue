@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <h1>Single File Compoenent & Router Demo</h1>
+    <h1>Single File Component & Router Demo</h1>
     <p>
       <!-- nutze <router-link> zur Navigation -->
       <!-- gib den Link mit der `to`-Prop an -->

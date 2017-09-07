@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ greeting }}</h1>
+    <h1>{{ greeting }}</h1>
     <div>
       <input type="text" v-model="name">
     </div>
@@ -12,11 +13,13 @@ export default {
   name: 'greeting',
   data() {
     return {
+      counter: 0,
       name: 'Bubu',
     };
   },
   computed: {
     greeting() {
+      this.counter = this.counter + 1;
       return `Hello ${this.name}`;
     },
   },

@@ -9,7 +9,7 @@ export default {
   name: 'hello',
   data() {
     return {
-      msg: 'Hello SaarJS',
+      msg: 'Hello SaarJS Meetup',
     };
   },
 };
