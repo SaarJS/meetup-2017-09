@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Vue Hello World</title>
+</head>
+
+<body>
+  <div id="app">
+    <p>{{message}}</p> <!-- View Binding -->
+    <p><input v-model="message"></p> <!-- Input Binding -->
+    <button v-on:click="reverseMessage"> <!-- Event Binding --> 
+        Reverse message
+      </button>
+  </div>
+  <script src="https://unpkg.com/vue"></script>
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        message: "Hello SaarJS!"
+      },
+      methods: {
+        reverseMessage: function() {
+          this.message = this.message.split('').reverse().join('')
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
